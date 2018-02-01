@@ -33,7 +33,7 @@
             }
         }
     },
-    "license": "GNU",
+    "license": "MIT",
     "authors": [
         {
             "name": "Anthony Conklin",
