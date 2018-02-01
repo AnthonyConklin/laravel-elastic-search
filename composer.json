@@ -1,5 +1,5 @@
 {
-    "name": "AnthonyConklin/laravel-elastic-search",
+    "name": "aconklin/laravel-elastic-search",
     "description": "An elegant way of interfacing with Elastic Search",
     "keywords": ["elasticsearch", "elastic-search", "elastic", "laravel", "scout", "laravel-scout"],
     "type": "library",
