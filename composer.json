@@ -1,0 +1,44 @@
+{
+    "name": "AnthonyConklin/laravel-elastic-search",
+    "description": "An elegant way of interfacing with Elastic Search",
+    "keywords": ["elasticsearch", "elastic-search", "elastic", "laravel", "scout", "laravel-scout"],
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "elasticsearch/elasticsearch": "^6.0",
+        "laravel/scout": "^3.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.7",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Conklin\\ElasticSearch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Conklin\\ElasticSearch\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Conklin\\ElasticSearch\\ElasticSearchServiceProvider"
+            ],
+            "aliases": {
+                "Elastic": "Conklin\\Facades\\Elastic"
+            }
+        }
+    },
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Anthony Conklin",
+            "email": "conklin.anthony@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
